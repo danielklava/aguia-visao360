@@ -1,0 +1,128 @@
+body{background: #f9f9f9;}
+
+/* Colors */
+
+.blue{background: #00618b}
+.purple{background: #590052}
+.purple-light{background: #97138b}
+.green{background: #00be82}
+
+.full-container-dash {
+    box-shadow: rgba(0,0,0,0.2) 0 0 10px;
+    background: #FFF;
+    margin: 15px;
+    min-height: 300px;
+}
+
+header {
+    background: #00618b;
+    height: 50px;
+    line-height: 50px;
+}
+
+.painel-custom {
+    margin: 15px auto;
+    display: block;
+    width: 98%;
+}
+
+.card-default {
+    background: #f5f5f5;
+    min-height: 80px;
+    border-left: solid 5px #CCC;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+
+.card-default h3 {
+    margin-top: 0;
+    font-size: 16px;
+    color: #00618b;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+table {
+    width: 100%;
+    font-size: 12px;
+    font-weight: normal;
+    color: #333333;
+}
+
+table thead th {
+    font-size: 12px;
+    font-weight: normal;
+    color: #999;
+}
+
+.list-vendedores {
+    list-style: none;
+    padding: 0px 0px 0 70px;
+    margin: 0;
+    font-size: 12px;
+}
+
+.tiles-colors .col-md-3 {
+    padding: 0 3px 3px 0;
+    text-align: center;
+}
+
+.tiles-colors .col-md-3:nth-child(4) {
+    padding-right: 0;
+}
+
+.tiles-colors .col-md-6 {
+    padding: 0;
+}
+
+.tile-box {
+    height: 160px;
+    width: 100%;
+}
+
+/* Tab Navigation */
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.nav-tabs>li {
+    float: left;
+    margin-bottom: 0px;
+    width: 50%;
+    background: #d2d2d2;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #FFFFFF;
+    cursor: default;
+    background-color: #313131;
+    border: none;
+    border-bottom-color: transparent;
+}
+
+.nav-tabs>li>a {
+    margin-right: 0px;
+    line-height: 1.42857143;
+    border: none;
+    border-radius: 0px;
+    color: #666;
+}
+
+.tabs-custom {
+    margin-top: 20px;
+}
+
+.tab-content {
+    padding-top: 10px;
+}
+
+.bg-chart {
+    background: whitesmoke;
+    padding: 20px;
+    margin-bottom: 8px;
+}
