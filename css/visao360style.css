@@ -223,6 +223,15 @@ table thead th {
     margin-bottom: 8px;
 }
 
+.bg-chart h3 {
+    margin-top: 0;
+    font-size: 16px;
+    color: #00618b;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 .btn-link {
     display: inline-block;
     width: 50%;
