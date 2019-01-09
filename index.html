@@ -26,7 +26,19 @@
 
     <div class="full-container-dash">
         <header>
-            Nome do Cliente
+
+            <div class="col-md-4">
+                <img src="images/3d-buildings.svg" width="35" alt="">
+                <span>Nome do Cliente</span>
+            </div>
+            <div class="col-md-4 text-center">
+                <span>TOP 10</span>
+            </div>
+            <div class="col-md-4 text-right">
+                <img src="images/frontal-truck.svg" width="35" alt="">
+                <span>Faixa de Frota: <strong>ACIMA DE 201</strong></span>
+            </div>
+
         </header>
 
         <div class="painel-custom">
@@ -78,7 +90,7 @@
                         </table>
                     </div>
 
-                    <div class="card-default">
+                    <div class="card-default vendedores-bg">
 
                         <ul class="list-vendedores">
                             <li>Vendedor Peças: Laís</li>
@@ -91,139 +103,92 @@
 
                     <div>
 
-                        <!-- Nav tabs -->
-                        <ul class="nav nav-tabs tabs-custom" role="tablist">
-                            <li role="presentation" class="active"><a href="#pecas" aria-controls="pecas" role="tab"
-                                    data-toggle="tab">Peças</a></li>
-                            <li role="presentation"><a href="#pneus" aria-controls="pneus" role="tab" data-toggle="tab">Pneus</a></li>
-                        </ul>
+                        <a class="btn-link active" href="#pecas">Peças</a>
+                        <a class="btn-link" href="#pneus">Pneus</a>
 
-                        <!-- Tab panes -->
-                        <div class="tab-content">
-                            <div role="tabpanel" class="tab-pane fade in active" id="pecas">
+                        <div class="tiles-colors">
 
-
-                                <!-- Tiles Colors -->
-
-                                <div class="tiles-colors">
-
-                                    <div class="col-md-3 col-sm-3 col-xs-12">
-                                        <div class="tile-box blue">Peças</div>
-                                    </div>
-                                    <div class="col-md-3 col-sm-3 col-xs-12">
-                                        <div class="tile-box purple">Peças</div>
-                                    </div>
-                                    <div class="col-md-3 col-sm-3 col-xs-12">
-                                        <div class="tile-box purple-light">Peças</div>
-                                    </div>
-                                    <div class="col-md-3 col-sm-3 col-xs-12">
-                                        <div class="tile-box green">Peças</div>
-                                    </div>
-
-                                    <div class="col-md-3 col-sm-3 col-xs-12">
-                                        <div class="tile-box green">Peças</div>
-                                    </div>
-                                    <div class="col-md-3 col-sm-3 col-xs-12">
-                                        <div class="tile-box purple-light">Peças</div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-6 col-xs-12">
-                                        <div class="tile-box blue ">Peças</div>
-                                    </div>
+                            <div class="col-md-3 col-sm-3 col-xs-12">
+                                <div class="tile-box blue">
+                                    <img src="images/clipboard.svg" alt="">
+                                    <span> Perfil do cliente </span>
 
                                 </div>
-
-
-
                             </div>
-                            <div role="tabpanel" class="tab-pane fade" id="pneus">
+                            <div class="col-md-3 col-sm-3 col-xs-12">
+                                <div class="tile-box purple">
+                                    <img src="images/chip.svg" alt="">
+                                    <span> Potencial </span>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-12">
+                                <div class="tile-box purple-light">
+                                    <p class="number-tile"> 03 </p>
+                                    <span> Cotações em aberto </span>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-12">
+                                <div class="tile-box green">
+                                    <p class="number-tile"> 05 </p>
+                                    <span> Partidas em aberto </span>
+                                </div>
+                            </div>
 
+                            <div class="col-md-3 col-sm-3 col-xs-12">
+                                <div class="tile-box green tile-bg-chart">
+                                    <p class="perc-tile">78<span class="indi-perc">%</span> </p>
+                                    <p class="value-tile">R$ 800.000,00</p>
+                                    <span> Market Shared </span>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-12">
+                                <div class="tile-box purple-light">
+                                    <img src="images/letter-cubes.svg" alt="">
+                                    <span> Classificação ABC </span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="tile-box blue tile-box-custom">
 
-
-                                <!-- Tiles Colors -->
-
-                                <div class="tiles-colors">
-
-                                    <div class="col-md-3">
-                                        <div class="tile-box blue">Pneus</div>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <div class="tile-box purple">Pneus</div>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <div class="tile-box purple-light">Pneus</div>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <div class="tile-box green">Pneus</div>
-                                    </div>
-
-                                    <div class="col-md-3">
-                                        <div class="tile-box green">Pneus</div>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <div class="tile-box purple-light">Pneus</div>
-                                    </div>
                                     <div class="col-md-6">
-                                        <div class="tile-box blue ">Pneus</div>
+                                        <img src="images/coin.svg" alt="">
+                                        <p class="value-box-custom">R$ 5.000.000,00</p>
+                                        <p class="lbl-box-custom">Total Crédito</p>
+                                        <span class="line-vert"></span>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <img src="images/give-money.svg" alt="">
+                                        <p class="value-box-custom">R$ 5.000.000,00</p>
+                                        <p class="lbl-box-custom">Crédito disponível</p>
                                     </div>
 
                                 </div>
-
-
-
                             </div>
+
                         </div>
+
 
                     </div>
 
-
-
-                    <!-- Tiles Colors 
-
-                    <div class="tiles-colors">
-
-                        <div class="col-md-3">
-                            <div class="tile-box blue">Guga</div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="tile-box purple">Guga</div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="tile-box purple-light">Guga</div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="tile-box green">Guga</div>
-                        </div>
-
-                        <div class="col-md-3">
-                            <div class="tile-box green">Guga</div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="tile-box purple-light">Guga</div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="tile-box blue ">Guga</div>
-                        </div>
-
-                    </div>
-                -->
 
                 </div>
 
-                <div class="col-md-6 col-sm-6 col-xs-12"> 
+                <div class="col-md-6 col-sm-6 col-xs-12">
 
                     <div class="bg-chart">
 
-                            <canvas id="myChart" height="150"></canvas>
+                        <canvas id="myChart" height="150"></canvas>
 
                     </div>
 
                     <div class="bg-chart">
 
-                            <canvas id="myChart2" height="150"></canvas>
+                        <canvas id="myChart2" height="150"></canvas>
 
                     </div>
 
-                                               
+
                 </div>
 
             </div>

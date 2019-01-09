@@ -18,6 +18,11 @@ header {
     background: #00618b;
     height: 50px;
     line-height: 50px;
+    color:#FFFFFF;
+}
+
+header img {
+    margin-right: 10px;
 }
 
 .painel-custom {
@@ -78,6 +83,97 @@ table thead th {
 .tile-box {
     height: 160px;
     width: 100%;
+    padding-top: 45px;
+    color: #FFF;
+    font-size: 12px;
+}
+
+.tile-box img {
+    width: 40%;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.tile-box .number-tile {
+    font-size: 70px;
+    margin-top: -12px;
+    margin-bottom: -25px;
+    font-weight: bold;
+    text-shadow: rgba(0,0,0,0.1) 5px 3px 0px;
+}
+
+.tile-box .perc-tile {
+    font-size: 50px;
+    margin-top: -20px;
+    margin-bottom: -10px;
+    font-weight: bold;
+    text-shadow: rgba(0,0,0,0.1) 5px 3px 0px;
+}
+
+.tile-box .value-tile {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 6px;
+    margin-bottom: -7px;
+}
+
+.tile-box span {
+    display: block;
+    margin-top: 30px;
+}
+
+.tile-bg-chart {
+    background-image: url(../images/pie-chart.svg) !important;
+    background-repeat: no-repeat;
+    background-size: 120px;
+    background-position: 50px 45px;
+}
+
+.vendedores-bg {
+    background-image: url(../images/salesman.svg) !important;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: 15px 13px;
+}
+
+.tile-box-custom {
+    padding: 0px;
+    text-align: right;
+}
+
+.indi-perc {
+    display: inline !important;
+    margin-top: initial !important;
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+.tile-box-custom img {
+    width: 45px;
+    margin: inherit;
+    display: initial;
+    margin: 38px 0px 20px 0px;
+}
+
+.tile-box-custom .col-md-6 {
+    padding-right: 20px;
+    position: relative;
+}
+
+.tile-box-custom span {
+    position: absolute;
+    width: 1px;
+    background: #FFFFFF;
+    height: 120px;
+    right: 0;
+    top: -10px;
+}
+
+.tile-box-custom .value-box-custom {
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 
 /* Tab Navigation */
@@ -125,4 +221,27 @@ table thead th {
     background: whitesmoke;
     padding: 20px;
     margin-bottom: 8px;
+}
+
+.btn-link {
+    display: inline-block;
+    width: 50%;
+    background: #f9f9f9;
+    padding: 10px;
+    text-align: center;
+    color: #999999;
+    font-size: 18px;
+    margin: 15px 0 5px 0px;
+    float: left;
+}
+
+.btn-link:focus, .btn-link:hover {
+    color: #999999;
+    text-decoration: none;
+    background-color: #f9f9f9;
+}
+
+.btn-link.active {
+    background: #313131;
+    color:#FFFFFF;
 }

@@ -2,7 +2,7 @@ var ctx = document.getElementById("myChart");
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
-        labels: ["Red", "Blue", "Yellow", "Green"],
+        labels: ["Blue", "Purple", "Purple Light", "Green"],
         datasets: [{
             label: 'Teste de Gráfico 01',
             data: [12, 19, 3, 5, 2, 3],
@@ -39,7 +39,7 @@ var myChart = new Chart(ctx, {
         labels: ["Red", "Blue"],
         datasets: [{
             label: 'Teste de Gráfico 02',
-            data: [12, 19, 3, 5, 2, 3],
+            data: [12, 50],
             backgroundColor: [
                 '#00618b',
                 '#590052'
