@@ -5,7 +5,7 @@ var myChart = new Chart(ctx, {
         labels: ["JAN", "FEV", "MAR", "ABR", "MAI", "JUN", "JUL", "AGO", "SET", "OUT", "NOV", "DEZ"],
         datasets: [{
             label: 'Teste de Gráfico 01',
-            data: [12, 19, 3, 5, 2, 3, 12, 19, 3, 5, 2, 3],
+            data: [30, 80, 50, 100, 30, 80, 50, 100, 50, 120, 50, 30],
             backgroundColor: [
                 '#00618b',
                 '#590052',
@@ -52,10 +52,10 @@ var ctx = document.getElementById("myChart2");
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
-        labels: ["EXTRA PESADO", "LEVE", "MEDIO", "MEIO PESADO"],
+        labels: ["2016", "2017", "2018", "2019"],
         datasets: [{
             label: 'Teste de Gráfico 02',
-            data: [30, 80, 50, 100],
+            data: [90, 120, 220, 20],
             backgroundColor: [
                 '#00618b',
                 '#590052',
