@@ -8,9 +8,9 @@ body{background: #f9f9f9;}
 .green{background: #00be82}
 
 .full-container-dash {
-    box-shadow: rgba(0,0,0,0.2) 0 0 10px;
+    /*box-shadow: rgba(0,0,0,0.2) 0 0 10px;*/
     background: #FFF;
-    margin: 15px;
+    margin: 0px;
     min-height: 300px;
 }
 
