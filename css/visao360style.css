@@ -122,6 +122,12 @@ table thead th {
     margin-top: 30px;
 }
 
+.number-perc {
+    display: inline !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
 .tile-bg-chart {
     background-image: url(../images/pie-chart.svg) !important;
     background-repeat: no-repeat;
