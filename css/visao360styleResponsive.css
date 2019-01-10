@@ -28,7 +28,7 @@
     /*body{background: Red;}*/
 
     .tile-box-custom .value-box-custom {
-        font-size: 14px;
+        font-size: 12px;
         margin-bottom: 7px;
     }
 
@@ -64,5 +64,84 @@
     }
     
   }
+
+  @media screen and (max-width: 767px) {
+
+    /*body{background: Green;}*/
+
+    .tile-box {
+        height: 200px;
+        width: 100%;
+        padding-top: 30px;
+        color: #FFF;
+        font-size: 18px;
+    }
+
+    .tile-box-custom .col-md-6 {
+        padding-right: 30px;
+        position: relative;
+    }
+
+    .tile-box img {
+        width: 25%;
+        display: block;
+        margin: 0 auto 10px;
+    }
+
+    .tile-box-custom img {
+        width: 65px;
+        margin: inherit;
+        display: initial;
+        margin: 10px 0px 15px 0px;
+    }
+
+    .tile-box-custom .value-box-custom {
+        font-size: 20px;
+        margin-bottom: 2px;
+    }
+
+    .tile-box-custom .value-box-custom {
+        font-size: 20px;
+        margin-bottom: 2px;
+    }
+
+    .tile-box .value-tile {
+        font-weight: bold;
+        font-size: 22px;
+        margin-top: 6px;
+        margin-bottom: -7px;
+    }
+
+    .tile-box .number-tile {
+        font-size: 57px;
+    }
+
+    .tile-box .number-tile {
+        font-size: 85px;
+    }
+
+    .tile-box .perc-tile {
+        font-size: 65px;
+    }
+
+    .tiles-colors .col-md-3:nth-child(2) {
+        padding-right: 0;
+    }
+
+    .tiles-colors .col-md-3:nth-child(6) {
+        padding-right: 0;
+    }
+    
+  }
+
+  @media screen and (max-width: 490px) {
+
+    .tile-box img {
+        width: 40%;
+    }
+
+
+  }
+
 
 
