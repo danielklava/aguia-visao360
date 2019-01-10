@@ -1,5 +1,5 @@
 body{background: #f9f9f9;}
-
+* { transition: all 200ms linear 0s; }
 /* Colors */
 
 .blue{background: #00618b}
@@ -86,6 +86,10 @@ table thead th {
     padding-top: 45px;
     color: #FFF;
     font-size: 12px;
+}
+
+.tile-box:hover {
+    box-shadow: inset rgba(0,0,0,0.4) 0 0 120px;
 }
 
 .tile-box img {

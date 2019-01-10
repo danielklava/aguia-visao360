@@ -32,6 +32,15 @@
         margin-bottom: 7px;
     }
 
+    .tile-box-custom .col-md-6 {
+        padding-right: 15px;
+        position: relative;
+    }
+
+    .lbl-box-custom {
+        font-size: 10px;
+    }
+
     .tile-box .number-tile {
         font-size: 62px;
     }
@@ -138,6 +147,15 @@
 
     .tile-box img {
         width: 40%;
+    }
+
+    .tile-box-custom .value-box-custom {
+        font-size: 15px;
+        margin-bottom: 2px;
+    }
+
+    .lbl-box-custom {
+        font-size: 12px;
     }
 
 
