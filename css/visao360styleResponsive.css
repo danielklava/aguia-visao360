@@ -160,6 +160,14 @@
     
   }
 
+  @media screen and (max-width: 735px) {
+
+    .tile-box .letter-info {
+        margin: -5px 0px -22px -10px !important;
+    }
+
+  }
+
   @media screen and (max-width: 490px) {
 
     .tile-box img {
