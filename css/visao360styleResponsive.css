@@ -127,6 +127,18 @@
         margin-bottom: 2px;
     }
 
+    .tile-box span {
+        font-size: 14px;
+    }
+
+    .number-perc {
+        font-size: 65px !important;
+    }
+
+    .indi-perc {
+        font-size: 30px !important;
+    }
+
     .tile-box .value-tile {
         font-weight: bold;
         font-size: 22px;
@@ -156,6 +168,12 @@
 
     .tile-box .letter-info {
         margin: -5px 0px -22px -10px !important;
+    }
+
+    
+
+    .lbl-box-custom {
+        font-size: 14px;
     }
     
   }

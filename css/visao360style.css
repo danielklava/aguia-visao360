@@ -89,6 +89,7 @@ table thead th {
     padding-top: 45px;
     color: #FFF;
     font-size: 12px;
+    position: relative;
 }
 
 .tile-box:hover {
@@ -141,12 +142,16 @@ table thead th {
 .tile-box span {
     display: block;
     margin-top: 30px;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
 }
 
 .number-perc {
     display: inline !important;
     margin: 0 !important;
     padding: 0 !important;
+    position: initial !important;
 }
 
 .tile-bg-chart {
@@ -171,6 +176,7 @@ table thead th {
 .indi-perc {
     display: inline !important;
     margin-top: initial !important;
+    position: initial !important;
     font-size: 30px;
     margin-left: 5px;
 }
