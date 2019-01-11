@@ -153,6 +153,10 @@
     .tiles-colors .col-md-3:nth-child(6) {
         padding-right: 0;
     }
+
+    .tile-box .letter-info {
+        margin: -5px 0px -22px -10px !important;
+    }
     
   }
 
