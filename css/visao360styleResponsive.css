@@ -71,6 +71,19 @@
     .tile-box .number-tile {
         font-size: 57px;
     }
+
+    .tile-box .letter-info {
+        margin: -5px 0px -2px -10px !important;
+    }
+
+    .card-default {
+        overflow: auto;
+    }
+
+    table {
+        overflow: overlay;
+        width: 600px;
+    }
     
   }
 
