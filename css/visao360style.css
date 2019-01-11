@@ -28,6 +28,26 @@ header img {
     margin-right: 10px;
 }
 
+
+.custom-cliente {
+    position: relative;
+    width: 100%;
+    display: initial;
+}
+
+.name-cliente {
+    position: absolute;
+    top: -24px;
+    display: inline-table;
+}
+
+.cnpj-cliente {
+    position: absolute;
+    top: -9px;
+    display: inline-table;
+    font-size: 11px;
+}
+
 .painel-custom {
     margin: 15px auto;
     display: block;
