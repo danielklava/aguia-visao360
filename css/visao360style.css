@@ -1,7 +1,8 @@
-body{background: #FFFFFF; margin: 0;}
-* { transition: all 200ms linear 0s; }
-/* Colors */
+body{background: #FFFFFF; margin: 0; overflow-x: hidden;}
 
+* { transition: all 200ms linear 0s; }
+
+/* Colors */
 .blue{background: #00618b}
 .purple{background: #590052}
 .purple-light{background: #97138b}
@@ -13,7 +14,7 @@ body{background: #FFFFFF; margin: 0;}
     margin: 0px;
     min-height: 300px;
     padding:0;
-    width: 99%; 
+    width: 100%; 
 }
 
 header {
@@ -106,6 +107,10 @@ table thead th {
     margin-bottom: -25px;
     font-weight: bold;
     text-shadow: rgba(0,0,0,0.1) 5px 3px 0px;
+}
+
+.class-abc {
+    margin-bottom: -27px !important;
 }
 
 .tile-box .letter-info {
@@ -264,6 +269,7 @@ table thead th {
     font-size: 18px;
     margin: 15px 0 5px 0px;
     float: left;
+    cursor: pointer;
 }
 
 .btn-link:focus, .btn-link:hover {
