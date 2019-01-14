@@ -8,6 +8,11 @@ body{background: #FFFFFF; margin: 0; overflow-x: hidden;}
 .purple-light{background: #97138b}
 .green{background: #00be82}
 
+.red{background: #be1623}
+.purple-ag{background: #724c7f}
+.blue-ag{background:#146ab3 }
+.green-ag{background:#3fae69 }
+
 .full-container-dash {
     /*box-shadow: rgba(0,0,0,0.2) 0 0 10px;*/
     background: #FFF;
@@ -18,7 +23,7 @@ body{background: #FFFFFF; margin: 0; overflow-x: hidden;}
 }
 
 header {
-    background: #00618b;
+    background: #146ab3;
     height: 50px;
     line-height: 50px;
     color:#FFFFFF;
@@ -65,7 +70,7 @@ header img {
 .card-default h3 {
     margin-top: 0;
     font-size: 16px;
-    color: #00618b;
+    color: #146ab3;
     margin-bottom: 15px;
     text-transform: uppercase;
 }
