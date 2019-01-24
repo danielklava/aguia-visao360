@@ -139,6 +139,14 @@ table thead th {
     text-shadow: rgba(0,0,0,0.1) 5px 3px 0px;
 }
 
+.tile-box .string-tile {
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    text-shadow: rgba(0,0,0,0.1) 5px 3px 0px;
+}
+
 .class-abc {
     margin-bottom: -27px !important;
 }
@@ -161,6 +169,11 @@ table thead th {
     font-size: 16px;
     margin-top: 6px;
     margin-bottom: -7px;
+}
+
+.value-tile.num-frota {
+    margin: 0px 0 0px 0 !important;
+    font-size: 22px !important;
 }
 
 .tile-box .num-potencial {
