@@ -104,6 +104,10 @@ table thead th {
     padding-right: 0;
 }
 
+.tiles-colors .col-md-3:nth-child(8) {
+    padding-right: 0;
+}
+
 .tiles-colors .col-md-6 {
     padding: 0;
 }
@@ -129,7 +133,7 @@ table thead th {
 
 .tile-box .number-tile {
     font-size: 70px;
-    margin-top: -12px;
+    margin-top: -20px;
     margin-bottom: -25px;
     font-weight: bold;
     text-shadow: rgba(0,0,0,0.1) 5px 3px 0px;
