@@ -12,6 +12,16 @@ body{background: #FFFFFF; margin: 0; overflow-x: hidden;}
 .purple-ag{background: #724c7f}
 .blue-ag{background:#146ab3 }
 .green-ag{background:#3fae69 }
+.black-ag{background: #1f1f1f}
+
+.truncate {
+	width: 95%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: inline-block;
+	vertical-align: middle;
+}
 
 .full-container-dash {
     /*box-shadow: rgba(0,0,0,0.2) 0 0 10px;*/
@@ -172,8 +182,13 @@ table thead th {
 }
 
 .value-tile.num-frota {
-    margin: 0px 0 0px 0 !important;
+    margin: -8px 0 0px 0 !important;
     font-size: 22px !important;
+}
+
+.lbl-frota {
+    margin-top: -5px;
+    color: #999;
 }
 
 .tile-box .num-potencial {
