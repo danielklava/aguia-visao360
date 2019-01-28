@@ -152,6 +152,7 @@
 
     .tile-box .number-tile {
         font-size: 85px;
+        margin-top: 5px;
     }
 
     .tile-box .perc-tile {
